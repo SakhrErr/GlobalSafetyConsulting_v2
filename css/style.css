@@ -642,8 +642,8 @@ footer{
     list-style: none;
 }
 
-.liste li::before {
-    content: url(/images/favicon/favicon-13x13.png);
+.liste li:before {
+    content: url(/images/favicon/favicon-10x10.png);
     margin-right: 5px;
 }
 
