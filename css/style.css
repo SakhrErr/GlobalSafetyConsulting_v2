@@ -643,7 +643,7 @@ footer{
 }
 
 .liste li:before {
-    content: url(/images/favicon/favicon-10x10.png);
+    content: url(/images/favicon/favicon-15x15.png);
     margin-right: 5px;
 }
 
