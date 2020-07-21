@@ -586,8 +586,7 @@ footer{
 }
 
 .tab-content ul{
-    list-style-type: none;
-    /* list-style-image: url(/images/favicon/favicon-20x20.png); */
+    padding-left: 20px;
 }
 
 .tab-content li::before {
