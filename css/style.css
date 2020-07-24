@@ -49,6 +49,7 @@ section .carousel-inner .item{
 .navbar-inverse .navbar-nav li a{
     color: rgba(255, 255, 255, 0.9);
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .banner {
@@ -63,8 +64,11 @@ section .carousel-inner .item{
     font-size: 1.2rem;
 }
 
-.nav a:hover {
-    font-size: 1.2em;
+.nav a span:hover {
+    /* font-size: 1.2em; */
+    color: #a8df65;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #17706e;
 }
 
 .carousel-caption {
@@ -84,7 +88,7 @@ section .carousel-inner .item{
 }
 
 .carousel-caption h2 span{
-    color: #f1cb41;
+    color: rgb(90,170,228);
 }
 
 .carousel-caption h2{
@@ -141,7 +145,8 @@ section .carousel-inner .item{
         background: rgba(0, 0, 0, 0.8);
     }
     .carousel-caption{
-        padding-bottom: 100px;
+        padding-bottom: 50px;
+        padding-left: 0;
     }
     .carousel-caption h2 {
         font-size: 3rem;
@@ -448,7 +453,12 @@ footer{
     padding-right: 40px;
     text-align: justify;
  }
- 
+
+ footer .footer-about p {
+    letter-spacing: 1;
+    line-height: 1.5;
+}
+
  .footer-logo{
     margin-bottom: 20px;
  }
@@ -562,10 +572,31 @@ footer{
 }
 
 
+/* nos secteurs */
+#nosSecteurs .intro p {
+    text-align: justify;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
 
+#nosSecteurs {
+    padding-bottom: 20px;
+}
 
+.betAgere img {
+    width: 20%;
+    margin-right: 10px;
+}
 
-/*  */
+.lineBottom {
+    background-color: red;
+    width: 40%;
+    height: 2px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+/* nos services */
 
 #nosServices .title h3{
     font-size: 1.3rem;
@@ -586,11 +617,12 @@ footer{
 }
 
 .tab-content ul{
-    padding-left: 20px;
+    list-style-type: none;
+    /* list-style-image: url(/images/favicon/favicon-20x20.png); */
 }
 
 .tab-content li::before {
-    content: url('/images/favicon/favicon-10x10.png');
+    content: url('../images/favicon/favicon-10x10.png');
     margin-right: 5px;
 }
 
@@ -601,7 +633,7 @@ footer{
 
 /* Nos services */
 #nosServices {
-    background-image: url(/images/slider-main/securite-btp.jpg);
+    background-image: url('../images/slider-main/securite-btp.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -641,8 +673,8 @@ footer{
     list-style: none;
 }
 
-.liste li:before {
-    content: url(/images/favicon/favicon-15x15.png);
+.liste li::before {
+    content: url(../images/favicon/favicon-13x13.png);
     margin-right: 5px;
 }
 
@@ -672,4 +704,19 @@ footer{
 
 .services p {
     color: rgba(0, 0, 0, 0.8);
+}
+
+#service {
+    padding-top: 90px;
+    min-height: auto;
+}
+
+#service h3 {
+    color: green;
+    font-size: 2.5rem;
+}
+
+#service .panel-heading {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
